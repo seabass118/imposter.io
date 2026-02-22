@@ -1,6 +1,6 @@
 'use client';
 
-import { GameResult } from '../../../shared/types';
+import { GameResult } from '../shared/types';
 
 interface Props {
   result: GameResult;

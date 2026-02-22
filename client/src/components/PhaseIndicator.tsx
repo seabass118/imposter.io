@@ -1,6 +1,6 @@
 'use client';
 
-import { GamePhase } from '../../../shared/types';
+import { GamePhase } from '../shared/types';
 
 const phaseLabels: Record<GamePhase, string> = {
   lobby: 'Lobby',

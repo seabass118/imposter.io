@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { PublicPlayer, Submission } from '../../../shared/types';
+import { PublicPlayer, Submission } from '../shared/types';
 
 interface Props {
   players: PublicPlayer[];

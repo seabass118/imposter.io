@@ -1,6 +1,6 @@
 'use client';
 
-import { PublicPlayer, GamePhase } from '../../../shared/types';
+import { PublicPlayer, GamePhase } from '../shared/types';
 
 interface Props {
   players: PublicPlayer[];

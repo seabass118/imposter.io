@@ -7,7 +7,7 @@ import {
   ClientEvents, ServerEvents,
   RoomState, GameResult, ReceiveWordPayload,
   PublicPlayer, Submission, GameSettings, DEFAULT_SETTINGS,
-} from '../../../shared/types';
+} from '../../shared/types';
 import JoinScreen from '@/components/JoinScreen';
 import Lobby from '@/components/Lobby';
 import SubmissionPhase from '@/components/SubmissionPhase';

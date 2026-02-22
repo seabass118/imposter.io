@@ -1,6 +1,6 @@
 'use client';
 
-import { PublicPlayer, GameSettings, WordCategory } from '../../../shared/types';
+import { PublicPlayer, GameSettings, WordCategory } from '../shared/types';
 
 const ALL_CATEGORIES: WordCategory[] = ['Objects', 'Places', 'Animals', 'Food', 'Jobs'];
 
