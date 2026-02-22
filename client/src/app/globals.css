@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  background: #0f0f1a;
+  color: #eaeaea;
+  min-height: 100vh;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #1a1a2e;
+}
+::-webkit-scrollbar-thumb {
+  background: #3a3a5e;
+  border-radius: 3px;
+}
+
+/* Phase transition */
+.phase-enter {
+  animation: slideUp 0.4s ease-out;
+}
+
+/* Timer pulse when low */
+.timer-critical {
+  animation: pulse 0.5s ease-in-out infinite;
+  color: #e94560;
+}
